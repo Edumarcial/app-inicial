@@ -1,7 +1,7 @@
 document.getElementById('form-vaga').addEventListener('submit', function(event) {
     // Impede o recarregamento da página ao enviar o formulário
     event.preventDefault();
-
+// Comentário esquecido
     // Captura dos valores dos inputs
     const nome = document.getElementById('nome').value.trim();
     const idade = parseInt(document.getElementById('idade').value, 10);
